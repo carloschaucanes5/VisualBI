@@ -1,0 +1,4 @@
+function fun_nodes(){var nodes1 = [{id: 1, label: 'inst_caracter_academico=UNIVERSIDAD estu_metodo_prgm=PRESENCIAL econ_sn_internet=SI 49025', group: 'black', color:'yellow'},{id: 2, label: 'econ_sn_computador=SI 48473', group: 'black', color:'cyan'},{id: 3, label: 'estu_genero=F estu_metodo_prgm=PRESENCIAL econ_sn_internet=SI 36738', group: 'black', color:'yellow'},{id: 4, label: 'econ_sn_computador=SI 36323', group: 'black', color:'cyan'},{id: 5, label: 'estu_metodo_prgm=PRESENCIAL econ_sn_internet=SI 64249', group: 'black', color:'yellow'},{id: 6, label: 'econ_sn_computador=SI 63478', group: 'black', color:'cyan'},];return nodes1;}
+
+
+function fun_edges(){var edges1 = [{from: 1, to: 2,label:'0' ,style:'arrow',color:'red',width: 2, length: 300 },{from: 3, to: 4,label:'1' ,style:'arrow',color:'red',width: 2, length: 300 },{from: 5, to: 6,label:'2' ,style:'arrow',color:'red',width: 2, length: 300 },];return edges1;}

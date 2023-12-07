@@ -1,0 +1,21 @@
+/* 
+    Document   : clustering
+    Created on : 2/01/2015, 10:58:35 AM
+    Author     : Carlitos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#divSelect {
+     position: absolute;
+     right: 300px;
+     top: 100px;
+     width: 200px;
+     height: 600px;
+     overflow: scroll;
+     }

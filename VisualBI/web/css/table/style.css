@@ -1,0 +1,272 @@
+fieldset
+{
+    border: none;
+    padding: 0;
+}
+
+form {
+    padding: 1em;
+}
+
+table
+{
+    font-size: 0.9em;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow:black 1px 1px 5px;
+    border-collapse: collapse;
+     /* hack IE8 */
+    //border-collapse: collapse \0/;
+    //border-right: 2px inset #D3D3D3 \0/;
+    //border-bottom: 2px inset #D3D3D3 \0/;
+     /* hack IE7 */
+    *border-collapse: collapse;
+    *border-right: 2px inset #D3D3D3;
+    *border-bottom: 2px inset #D3D3D3;
+}
+thead tr{
+    background-color: #C3D9FF;
+}
+th a{
+   color:black;
+}
+tr.odd
+{
+    background-color: #E5ECF9;
+}
+
+tr.noDataRow td {
+    text-align: center;
+}
+
+table th.title
+{
+    text-align: center;
+}
+
+
+th,td
+{
+    text-align: left;
+    padding: 10px;
+}
+
+td
+{
+    height: 1.6em;
+    padding: 0 0.5em;
+}
+
+td.editable
+{
+    width: 200px;
+    height: 22px;
+}
+
+th.sortable
+{
+    cursor: pointer;
+}
+
+tr.loading {
+    color: #dddddd;
+    background-color: #f6f6f6;
+}
+
+td.loading
+{
+    background: url('images/loading.gif') no-repeat 4px center;
+    padding-left: 24px;
+    color: #aaaaaa;
+    width: 176px;
+}
+
+td.delete {
+    background: url('images/delete.png') no-repeat center center;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+}
+
+td.delete label {
+    display: none;
+}
+
+table.activated th.edit,
+table.activated td.edit {
+    display: none;
+}
+
+table.activated td.delete input {
+    display: none;
+}
+
+table.activated td.delete label {
+    display: block;
+}
+
+p.addRow {
+    text-align: right;
+    margin: 0 1em 0 0;
+}
+
+p.addRow a {
+    cursor: pointer;
+}
+
+form fieldset.errors {
+    color: red;
+}
+
+form fieldset.errors p {
+    margin: 0.2em;
+}
+
+form div.submit {
+    padding: 1em;
+    text-align: right;
+}
+
+form div.submit input {
+    cursor: pointer;
+}
+
+form.newRow h3 {
+    margin: 0;
+}
+
+form.newRow th.edit,
+form.newRow td.edit,
+form.newRow th.delete,
+form.newRow td.delete {
+    display: none;
+}
+
+.pagination {
+    color: #888888;
+    float: left;
+    margin: 30px auto 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.pagination a {
+    color: #6666ff;
+    padding: 5px;
+    box-shadow:black 1px 1px 2px;
+    border:1px solid gray;
+    text-decoration: none;
+}
+.pagination a:hover {
+    color: #6666ff;
+    padding: 5px;
+    box-shadow:black 1px 1px 2px;
+    border:1px solid gray;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+.pagination .prev
+{
+    float: left;
+    padding: 5px;
+    box-shadow:black 1px 1px 2px;
+    border:1px solid gray;
+    margin-right: 5px;
+}
+
+.pagination .next
+{
+    float: right;
+    padding: 5px;
+    box-shadow:black 1px 1px 2px;
+    border:1px solid gray;
+    margin-left: 5px;
+}
+.pagination .current{
+    padding: 5px;
+    color:red;
+    box-shadow:black 1px 1px 2px;
+    border:1px solid gray;
+
+}
+.pagination .pages
+{
+    float:left;
+    text-align: center;
+    margin-top: 6px;
+}
+
+div.error {
+    margin: 20px;
+    padding: 20px;
+    background-color: #222;
+    color: #d44;
+    font-weight: bold;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+.ac_results {
+ padding: 0px;
+ border: 1px solid #ff7c08;
+ background-color: white;
+ overflow: hidden;
+}
+
+.ac_results ul {
+ width: 100%;
+ list-style-position: outside;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+.ac_results li {
+ margin: 0px;
+ padding: 2px 5px;
+ cursor: default;
+ display: block;
+ color: #972800;
+ font-family:Arial, Helvetica, sans-serif;
+ /*
+ if width will be 100% horizontal scrollbar will apear
+ when scroll mode will be used
+ */
+ /*width: 100%;*/
+ font-size: 12px;
+ /*
+ it is very important, if line-height not setted or setted
+ in relative units scroll will be broken in firefox
+ */
+ line-height: 16px;
+ overflow: hidden;
+
+}
+
+.ac_loading {
+ background: white url(../images/indicator.gif) right center no-repeat;
+}
+
+.ac_odd {
+ background-color: #fef2d8;
+}
+
+.ac_over {
+ background-color: #febb80;
+ color: white;
+}
+
+.input_text{
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:12px;
+ border:1px solid #FF7C08;
+ padding:2px;
+ width:150px;
+ color:#802900;
+ background:white url(../images/search.png) no-repeat 3px 2px;
+ padding-left:17px;
+}
+
+

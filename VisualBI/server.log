@@ -1,0 +1,1032 @@
+2014-12-02 09:46:22,267 WARN  [mondrian.olap.MondrianProperties] mondrian.properties can't be found under 'C:\Users\Carlitos\Documents\NetBeansProjects\VisualBI\.' or classloader
+2014-12-02 09:46:22,267 INFO  [mondrian.olap.MondrianProperties] Mondrian: loaded 0 system properties
+2014-12-02 09:46:23,237 DEBUG [mondrian.rolap.agg.SegmentCacheWorker] Segment cache initialized: mondrian.rolap.cache.MemorySegmentCache
+2014-12-02 09:46:23,284 DEBUG [mondrian.server.MondrianServerImpl] new MondrianServer: id=1
+2014-12-02 09:46:23,721 INFO  [mondrian.rolap.RolapUtil] Mondrian: JDBC driver org.postgresql.Driver loaded successfully
+2014-12-02 09:46:23,721 INFO  [mondrian.rolap.RolapUtil] Mondrian: JDBC driver sun.jdbc.odbc.JdbcOdbcDriver loaded successfully
+2014-12-02 09:46:23,721 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver org.hsqldb.jdbcDriver not found
+2014-12-02 09:46:23,721 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver oracle.jdbc.OracleDriver not found
+2014-12-02 09:46:23,721 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver com.mysql.jdbc.Driver not found
+2014-12-02 09:46:23,799 DEBUG [mondrian.server.MondrianServerImpl] addConnection , id=1, statements=0, connections=0
+2014-12-02 09:46:23,799 DEBUG [mondrian.server.monitor] ConnectionStartEvent(0)
+2014-12-02 09:46:23,799 DEBUG [mondrian.server.MondrianServerImpl] addStatement , id=1, statements=0, connections=1
+2014-12-02 09:46:23,831 DEBUG [mondrian.server.monitor] StatementStartEvent(0)
+2014-12-02 09:46:23,862 DEBUG [mondrian.rolap.RolapSchemaPool] get: catalog=D:/cubo/schema_udenar_count.xml, connectionKey=jdbc:postgresql://127.0.0.1:5432/repositorio_dwh{}, jdbcUser=postgres, dataSourceStr=null, dataSource=null, jdbcConnectionUuid=null, useSchemaPool=true, useContentChecksum=false, map-size=0, md5-map-size=0
+2014-12-02 09:46:23,947 INFO  [org.apache.commons.vfs.impl.DefaultFileReplicator] Using "C:\Users\Carlitos\AppData\Local\Temp\vfs_cache" as temporary files store.
+2014-12-02 09:46:23,994 DEBUG [org.apache.commons.vfs.impl.StandardFileSystemManager] Skipping provider "org.apache.commons.vfs.provider.ftp.FtpFileProvider" because required class "org.apache.commons.net.ftp.FTPFile" is not available.
+2014-12-02 09:46:23,994 DEBUG [org.apache.commons.vfs.impl.StandardFileSystemManager] Skipping provider "org.apache.commons.vfs.provider.http.HttpFileProvider" because required class "org.apache.commons.httpclient.HttpClient" is not available.
+2014-12-02 09:46:23,994 DEBUG [org.apache.commons.vfs.impl.StandardFileSystemManager] Skipping provider "org.apache.commons.vfs.provider.https.HttpsFileProvider" because required class "org.apache.commons.httpclient.HttpClient" is not available.
+2014-12-02 09:46:23,994 DEBUG [org.apache.commons.vfs.impl.StandardFileSystemManager] Skipping provider "org.apache.commons.vfs.provider.sftp.SftpFileProvider" because required class "com.jcraft.jsch.JSch" is not available.
+2014-12-02 09:46:24,056 DEBUG [org.apache.commons.vfs.cache.SoftRefFilesCache] putFile: file:///C:/Users/Carlitos/Documents/NetBeansProjects/VisualBI
+2014-12-02 09:46:24,072 DEBUG [org.apache.commons.vfs.cache.SoftRefFilesCache] putFile: file:///D:/cubo/schema_udenar_count.xml
+2014-12-02 09:46:24,119 DEBUG [mondrian.rolap.RolapSchemaPool] get(key=<e1f9e4227d237314c1cd63758d74a67a, fd94854a0b2a445097a0912efdb534fb>) returned null
+2014-12-02 09:46:24,369 DEBUG [mondrian.server.MondrianServerImpl] addConnection , id=1, statements=1, connections=1
+2014-12-02 09:46:24,369 DEBUG [mondrian.server.monitor] ConnectionStartEvent(1)
+2014-12-02 09:46:24,369 DEBUG [mondrian.server.MondrianServerImpl] addStatement , id=1, statements=1, connections=2
+2014-12-02 09:46:24,369 DEBUG [mondrian.server.monitor] StatementStartEvent(1)
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] Version=PostgreSQL 9.2.4, compiled by Visual C++ build 1600, 32-bit
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] NOT Using GREENPLUM dialect
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] Version=PostgreSQL 9.2.4, compiled by Visual C++ build 1600, 32-bit
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] NOT Using IMPALA dialect
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] Version=PostgreSQL 9.2.4, compiled by Visual C++ build 1600, 32-bit
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] NOT Using NETEZZA dialect
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] Version=PostgreSQL 9.2.4, compiled by Visual C++ build 1600, 32-bit
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] NOT Using GREENPLUM dialect
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] Version=PostgreSQL 9.2.4, compiled by Visual C++ build 1600, 32-bit
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] NOT Using NETEZZA dialect
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] Version=PostgreSQL 9.2.4, compiled by Visual C++ build 1600, 32-bit
+2014-12-02 09:46:24,947 DEBUG [mondrian.spi.impl.JdbcDialectImpl] NOT Using REDSHIFT dialect
+2014-12-02 09:46:25,057 DEBUG [mondrian.server.MondrianServerImpl] removeConnection , id=1, statements=2, connections=2
+2014-12-02 09:46:25,057 DEBUG [mondrian.server.MondrianServerImpl] removeStatement , id=1, statements=2, connections=1
+2014-12-02 09:46:25,057 DEBUG [mondrian.server.monitor] ConnectionInfo{cellCacheHitCount=0, cellCacheRequestCount=0, cellCacheMissCount=0, cellCachePendingCount=0, statementStartCount=1, statementEndCount=0, executeStartCount=0, executeEndCount=0}
+2014-12-02 09:46:25,088 DEBUG [mondrian.server.monitor] ConnectionEndEvent(1)
+2014-12-02 09:46:25,088 DEBUG [mondrian.server.monitor] StatementInfo{statementId=1, executeStartCount=0, executeEndCount=0, phaseCount=0, cellCacheRequestCount=0, cellCacheHitCount=0, cellCacheMissCount=0, cellCachePendingCount=0, sqlStatementStartCount=0, sqlStatementExecuteCount=0, sqlStatementEndCount=0, sqlStatementRowFetchCount=0, sqlStatementExecuteNanos=0, cellRequestCount=0}
+2014-12-02 09:46:25,088 DEBUG [mondrian.server.monitor] StatementEndEvent(1)
+2014-12-02 09:46:25,150 DEBUG [mondrian.rolap.RolapSchema] RolapSchema.load: catalogStr: 
+<Schema name="schema_udenar_cantidad">
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="dim_academica">
+    <Hierarchy name="Hierarchy_academica " visible="true" hasAll="true" primaryKey="id_programa" caption="Academica">
+      <Table name="dim_academica" schema="public">
+      </Table>
+      <Level name="level_programa" visible="true" column="nom_prog" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Programa">
+      </Level>
+      <Level name="level_facultad" visible="true" column="nom_fac" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Facultad">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="dim_colegio">
+    <Hierarchy name="Hierarchy_colegio" visible="true" hasAll="true" primaryKey="id_colegio" caption="Colegio">
+      <Table name="dim_colegio" schema="public">
+      </Table>
+      <Level name="level_colegio" visible="true" column="nom_colegio" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Colegio">
+      </Level>
+      <Level name="level_tipo_colegio" visible="true" column="nom_tipo" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Tipo Colegio">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="dim_estado">
+    <Hierarchy name="Hierarchy_estado" visible="true" hasAll="true" primaryKey="id_estado" caption="Estado">
+      <Table name="dim_estado" schema="public">
+      </Table>
+      <Level name="level_estado" visible="true" column="descripcion" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Estado">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="dim_estudiante">
+    <Hierarchy name="Hierarchy_estudiante" visible="true" hasAll="true" primaryKey="id_estudi" caption="Esdiantes">
+      <Table name="dim_estudiante" schema="public">
+      </Table>
+      <Level name="level_genero" visible="true" column="genero" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Genero">
+      </Level>
+      <Level name="level_estado_civil" visible="true" column="nombre_estado_civil" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Estado civil">
+      </Level>
+      <Level name="level_ingreso" visible="true" column="nombre_ingreso" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Ingreso">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="dim_geografica">
+    <Hierarchy name="Hierarchy_geografica" visible="true" hasAll="true" primaryKey="id_municipio" caption="Geografica">
+      <Table name="dim_geografica" schema="public">
+      </Table>
+      <Level name="level_municipio" visible="true" column="nom_municipio" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Municipio">
+      </Level>
+      <Level name="level_departamento" visible="true" column="nom_departamento" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Departamento">
+      </Level>
+      <Level name="level_pais" visible="true" column="nom_pais" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Pais">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="dim_temporal">
+    <Hierarchy name="Hierarchy_temporal" visible="true" hasAll="true" primaryKey="id_temporal" caption="Temporal">
+      <Table name="dim_temporal" schema="public">
+      </Table>
+      <Level name="level_year" visible="true" column="year" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="A&#241;o">
+      </Level>
+      <Level name="level_semester_per" visible="true" column="semester_str" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="periodo">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="cube_udenar" visible="true" cache="true" enabled="true">
+    <Table name="fac_cantidad" schema="public">
+    </Table>
+    <DimensionUsage source="dim_academica" name="dim_usage_academica" visible="true" foreignKey="id_programa" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="dim_colegio" name="dim_usage_colegio" visible="true" foreignKey="id_colegio" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="dim_estado" name="dim_usage_estado" visible="true" foreignKey="id_estado" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="dim_estudiante" name="dim_usage_estudiante" visible="true" foreignKey="id_estudi" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="dim_geografica" name="dim_usage_geografia" visible="true" foreignKey="id_ciudad_procedencia" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="dim_temporal" name="dim_usage_temporal" visible="true" foreignKey="id_temporal" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="measure_cantidad" column="count" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
+
+2014-12-02 09:46:25,166 DEBUG [mondrian.server.MondrianServerRegistry]  Vendor: Pentaho
+2014-12-02 09:46:25,166 DEBUG [mondrian.server.MondrianServerRegistry]   Title: mondrian
+2014-12-02 09:46:25,166 DEBUG [mondrian.server.MondrianServerRegistry] Version: 3.7.0.0-752
+2014-12-02 09:46:25,213 DEBUG [mondrian.server.MondrianServerRegistry] Major Version: 3
+2014-12-02 09:46:25,213 DEBUG [mondrian.server.MondrianServerRegistry] Minor Version: 7000
+2014-12-02 09:46:25,322 DEBUG [mondrian.rolap.RolapSchema] RolapSchema.load: dump xmlschema
+Schema
+         name = "schema_udenar_cantidad"
+         description = null
+         measuresCaption = null
+         defaultRole = null
+         annotations: null
+         parameters: array of 0 values
+         dimensions: array of 6 values
+         dimensions[0]: Dimension
+            type = "StandardDimension"
+            usagePrefix = null
+            visible = "true"
+            foreignKey = null
+            highCardinality = "false"
+            name = "dim_academica"
+            caption = null
+            description = null
+            annotations: null
+            hierarchies: array of 1 values
+            hierarchies[0]: Hierarchy
+               name = "Hierarchy_academica "
+               visible = "true"
+               hasAll = "true"
+               allMemberName = null
+               allMemberCaption = null
+               allLevelName = null
+               primaryKey = "id_programa"
+               primaryKeyTable = null
+               defaultMember = null
+               memberReaderClass = null
+               caption = "Academica"
+               description = null
+               uniqueKeyLevelName = null
+               annotations: null
+               relation: Table
+                  name = "dim_academica"
+                  schema = "public"
+                  alias = null
+                  filter: null
+                  aggExcludes: array of 0 values
+                  aggTables: array of 0 values
+                  tableHints: array of 0 values
+               levels: array of 2 values
+               levels[0]: Level
+                  approxRowCount = null
+                  name = "level_programa"
+                  visible = "true"
+                  table = null
+                  column = "nom_prog"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Programa"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               levels[1]: Level
+                  approxRowCount = null
+                  name = "level_facultad"
+                  visible = "true"
+                  table = null
+                  column = "nom_fac"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Facultad"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               memberReaderParameters: array of 0 values
+         dimensions[1]: Dimension
+            type = "StandardDimension"
+            usagePrefix = null
+            visible = "true"
+            foreignKey = null
+            highCardinality = "false"
+            name = "dim_colegio"
+            caption = null
+            description = null
+            annotations: null
+            hierarchies: array of 1 values
+            hierarchies[0]: Hierarchy
+               name = "Hierarchy_colegio"
+               visible = "true"
+               hasAll = "true"
+               allMemberName = null
+               allMemberCaption = null
+               allLevelName = null
+               primaryKey = "id_colegio"
+               primaryKeyTable = null
+               defaultMember = null
+               memberReaderClass = null
+               caption = "Colegio"
+               description = null
+               uniqueKeyLevelName = null
+               annotations: null
+               relation: Table
+                  name = "dim_colegio"
+                  schema = "public"
+                  alias = null
+                  filter: null
+                  aggExcludes: array of 0 values
+                  aggTables: array of 0 values
+                  tableHints: array of 0 values
+               levels: array of 2 values
+               levels[0]: Level
+                  approxRowCount = null
+                  name = "level_colegio"
+                  visible = "true"
+                  table = null
+                  column = "nom_colegio"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Colegio"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               levels[1]: Level
+                  approxRowCount = null
+                  name = "level_tipo_colegio"
+                  visible = "true"
+                  table = null
+                  column = "nom_tipo"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Tipo Colegio"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               memberReaderParameters: array of 0 values
+         dimensions[2]: Dimension
+            type = "StandardDimension"
+            usagePrefix = null
+            visible = "true"
+            foreignKey = null
+            highCardinality = "false"
+            name = "dim_estado"
+            caption = null
+            description = null
+            annotations: null
+            hierarchies: array of 1 values
+            hierarchies[0]: Hierarchy
+               name = "Hierarchy_estado"
+               visible = "true"
+               hasAll = "true"
+               allMemberName = null
+               allMemberCaption = null
+               allLevelName = null
+               primaryKey = "id_estado"
+               primaryKeyTable = null
+               defaultMember = null
+               memberReaderClass = null
+               caption = "Estado"
+               description = null
+               uniqueKeyLevelName = null
+               annotations: null
+               relation: Table
+                  name = "dim_estado"
+                  schema = "public"
+                  alias = null
+                  filter: null
+                  aggExcludes: array of 0 values
+                  aggTables: array of 0 values
+                  tableHints: array of 0 values
+               levels: array of 1 values
+               levels[0]: Level
+                  approxRowCount = null
+                  name = "level_estado"
+                  visible = "true"
+                  table = null
+                  column = "descripcion"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Estado"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               memberReaderParameters: array of 0 values
+         dimensions[3]: Dimension
+            type = "StandardDimension"
+            usagePrefix = null
+            visible = "true"
+            foreignKey = null
+            highCardinality = "false"
+            name = "dim_estudiante"
+            caption = null
+            description = null
+            annotations: null
+            hierarchies: array of 1 values
+            hierarchies[0]: Hierarchy
+               name = "Hierarchy_estudiante"
+               visible = "true"
+               hasAll = "true"
+               allMemberName = null
+               allMemberCaption = null
+               allLevelName = null
+               primaryKey = "id_estudi"
+               primaryKeyTable = null
+               defaultMember = null
+               memberReaderClass = null
+               caption = "Esdiantes"
+               description = null
+               uniqueKeyLevelName = null
+               annotations: null
+               relation: Table
+                  name = "dim_estudiante"
+                  schema = "public"
+                  alias = null
+                  filter: null
+                  aggExcludes: array of 0 values
+                  aggTables: array of 0 values
+                  tableHints: array of 0 values
+               levels: array of 3 values
+               levels[0]: Level
+                  approxRowCount = null
+                  name = "level_genero"
+                  visible = "true"
+                  table = null
+                  column = "genero"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Genero"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               levels[1]: Level
+                  approxRowCount = null
+                  name = "level_estado_civil"
+                  visible = "true"
+                  table = null
+                  column = "nombre_estado_civil"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Estado civil"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               levels[2]: Level
+                  approxRowCount = null
+                  name = "level_ingreso"
+                  visible = "true"
+                  table = null
+                  column = "nombre_ingreso"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Ingreso"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               memberReaderParameters: array of 0 values
+         dimensions[4]: Dimension
+            type = "StandardDimension"
+            usagePrefix = null
+            visible = "true"
+            foreignKey = null
+            highCardinality = "false"
+            name = "dim_geografica"
+            caption = null
+            description = null
+            annotations: null
+            hierarchies: array of 1 values
+            hierarchies[0]: Hierarchy
+               name = "Hierarchy_geografica"
+               visible = "true"
+               hasAll = "true"
+               allMemberName = null
+               allMemberCaption = null
+               allLevelName = null
+               primaryKey = "id_municipio"
+               primaryKeyTable = null
+               defaultMember = null
+               memberReaderClass = null
+               caption = "Geografica"
+               description = null
+               uniqueKeyLevelName = null
+               annotations: null
+               relation: Table
+                  name = "dim_geografica"
+                  schema = "public"
+                  alias = null
+                  filter: null
+                  aggExcludes: array of 0 values
+                  aggTables: array of 0 values
+                  tableHints: array of 0 values
+               levels: array of 3 values
+               levels[0]: Level
+                  approxRowCount = null
+                  name = "level_municipio"
+                  visible = "true"
+                  table = null
+                  column = "nom_municipio"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Municipio"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               levels[1]: Level
+                  approxRowCount = null
+                  name = "level_departamento"
+                  visible = "true"
+                  table = null
+                  column = "nom_departamento"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Departamento"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               levels[2]: Level
+                  approxRowCount = null
+                  name = "level_pais"
+                  visible = "true"
+                  table = null
+                  column = "nom_pais"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Pais"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               memberReaderParameters: array of 0 values
+         dimensions[5]: Dimension
+            type = "StandardDimension"
+            usagePrefix = null
+            visible = "true"
+            foreignKey = null
+            highCardinality = "false"
+            name = "dim_temporal"
+            caption = null
+            description = null
+            annotations: null
+            hierarchies: array of 1 values
+            hierarchies[0]: Hierarchy
+               name = "Hierarchy_temporal"
+               visible = "true"
+               hasAll = "true"
+               allMemberName = null
+               allMemberCaption = null
+               allLevelName = null
+               primaryKey = "id_temporal"
+               primaryKeyTable = null
+               defaultMember = null
+               memberReaderClass = null
+               caption = "Temporal"
+               description = null
+               uniqueKeyLevelName = null
+               annotations: null
+               relation: Table
+                  name = "dim_temporal"
+                  schema = "public"
+                  alias = null
+                  filter: null
+                  aggExcludes: array of 0 values
+                  aggTables: array of 0 values
+                  tableHints: array of 0 values
+               levels: array of 2 values
+               levels[0]: Level
+                  approxRowCount = null
+                  name = "level_year"
+                  visible = "true"
+                  table = null
+                  column = "year"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "Año"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               levels[1]: Level
+                  approxRowCount = null
+                  name = "level_semester_per"
+                  visible = "true"
+                  table = null
+                  column = "semester_str"
+                  nameColumn = null
+                  ordinalColumn = null
+                  parentColumn = null
+                  nullParentValue = null
+                  type = "String"
+                  internalType = null
+                  uniqueMembers = "false"
+                  levelType = "Regular"
+                  hideMemberIf = "Never"
+                  formatter = null
+                  caption = "periodo"
+                  description = null
+                  captionColumn = null
+                  annotations: null
+                  keyExp: null
+                  nameExp: null
+                  captionExp: null
+                  ordinalExp: null
+                  parentExp: null
+                  memberFormatter: null
+                  closure: null
+                  properties: array of 0 values
+               memberReaderParameters: array of 0 values
+         cubes: array of 1 values
+         cubes[0]: Cube
+            name = "cube_udenar"
+            caption = null
+            visible = "true"
+            description = null
+            defaultMeasure = null
+            cache = "true"
+            enabled = "true"
+            annotations: null
+            fact: Table
+               name = "fac_cantidad"
+               schema = "public"
+               alias = null
+               filter: null
+               aggExcludes: array of 0 values
+               aggTables: array of 0 values
+               tableHints: array of 0 values
+            dimensions: array of 6 values
+            dimensions[0]: DimensionUsage
+               source = "dim_academica"
+               level = null
+               usagePrefix = null
+               name = "dim_usage_academica"
+               caption = null
+               visible = "true"
+               description = null
+               foreignKey = "id_programa"
+               highCardinality = "false"
+               annotations: null
+            dimensions[1]: DimensionUsage
+               source = "dim_colegio"
+               level = null
+               usagePrefix = null
+               name = "dim_usage_colegio"
+               caption = null
+               visible = "true"
+               description = null
+               foreignKey = "id_colegio"
+               highCardinality = "false"
+               annotations: null
+            dimensions[2]: DimensionUsage
+               source = "dim_estado"
+               level = null
+               usagePrefix = null
+               name = "dim_usage_estado"
+               caption = null
+               visible = "true"
+               description = null
+               foreignKey = "id_estado"
+               highCardinality = "false"
+               annotations: null
+            dimensions[3]: DimensionUsage
+               source = "dim_estudiante"
+               level = null
+               usagePrefix = null
+               name = "dim_usage_estudiante"
+               caption = null
+               visible = "true"
+               description = null
+               foreignKey = "id_estudi"
+               highCardinality = "false"
+               annotations: null
+            dimensions[4]: DimensionUsage
+               source = "dim_geografica"
+               level = null
+               usagePrefix = null
+               name = "dim_usage_geografia"
+               caption = null
+               visible = "true"
+               description = null
+               foreignKey = "id_ciudad_procedencia"
+               highCardinality = "false"
+               annotations: null
+            dimensions[5]: DimensionUsage
+               source = "dim_temporal"
+               level = null
+               usagePrefix = null
+               name = "dim_usage_temporal"
+               caption = null
+               visible = "true"
+               description = null
+               foreignKey = "id_temporal"
+               highCardinality = "false"
+               annotations: null
+            measures: array of 1 values
+            measures[0]: Measure
+               name = "measure_cantidad"
+               column = "count"
+               datatype = null
+               formatString = null
+               aggregator = "sum"
+               formatter = null
+               caption = null
+               description = null
+               visible = "true"
+               annotations: null
+               measureExp: null
+               cellFormatter: null
+               memberProperties: array of 0 values
+            calculatedMembers: array of 0 values
+            namedSets: array of 0 values
+         virtualCubes: array of 0 values
+         namedSets: array of 0 values
+         roles: array of 0 values
+         userDefinedFunctions: array of 0 values
+
+2014-12-02 09:46:26,150 DEBUG [mondrian.rolap.RolapCube] RolapCube<init>: cube=cube_udenar
+2014-12-02 09:46:26,213 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_academica.Hierarchy_academica , fullName=dim_usage_academica.Hierarchy_academica , foreignKey=id_programa, source=dim_academica.Hierarchy_academica , level=null, name=dim_usage_academica, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,275 DEBUG [mondrian.rolap.RolapCube] RolapCube<init>: dimension=dim_usage_academica
+2014-12-02 09:46:26,275 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_academica.Hierarchy_academica , fullName=dim_usage_academica.Hierarchy_academica , foreignKey=id_programa, source=dim_academica.Hierarchy_academica , level=null, name=dim_usage_academica, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,275 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: cube=cube_udenar, hierarchy=dim_usage_academica.Hierarchy_academica , usage=HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_academica.Hierarchy_academica , fullName=dim_usage_academica.Hierarchy_academica , foreignKey=id_programa, source=dim_academica.Hierarchy_academica , level=null, name=dim_usage_academica
+2014-12-02 09:46:26,275 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: register HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_academica.Hierarchy_academica , fullName=dim_usage_academica.Hierarchy_academica , foreignKey=id_programa, source=dim_academica.Hierarchy_academica , level=null, name=dim_usage_academica
+2014-12-02 09:46:26,275 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_academica.Hierarchy_academica 
+2014-12-02 09:46:26,275 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_colegio.Hierarchy_colegio, fullName=dim_usage_colegio.Hierarchy_colegio, foreignKey=id_colegio, source=dim_colegio.Hierarchy_colegio, level=null, name=dim_usage_colegio, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,275 DEBUG [mondrian.rolap.RolapCube] RolapCube<init>: dimension=dim_usage_colegio
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_colegio.Hierarchy_colegio, fullName=dim_usage_colegio.Hierarchy_colegio, foreignKey=id_colegio, source=dim_colegio.Hierarchy_colegio, level=null, name=dim_usage_colegio, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: cube=cube_udenar, hierarchy=dim_usage_colegio.Hierarchy_colegio, usage=HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_colegio.Hierarchy_colegio, fullName=dim_usage_colegio.Hierarchy_colegio, foreignKey=id_colegio, source=dim_colegio.Hierarchy_colegio, level=null, name=dim_usage_colegio
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: register HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_colegio.Hierarchy_colegio, fullName=dim_usage_colegio.Hierarchy_colegio, foreignKey=id_colegio, source=dim_colegio.Hierarchy_colegio, level=null, name=dim_usage_colegio
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_colegio.Hierarchy_colegio
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_estado.Hierarchy_estado, fullName=dim_usage_estado.Hierarchy_estado, foreignKey=id_estado, source=dim_estado.Hierarchy_estado, level=null, name=dim_usage_estado, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube<init>: dimension=dim_usage_estado
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_estado.Hierarchy_estado, fullName=dim_usage_estado.Hierarchy_estado, foreignKey=id_estado, source=dim_estado.Hierarchy_estado, level=null, name=dim_usage_estado, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: cube=cube_udenar, hierarchy=dim_usage_estado.Hierarchy_estado, usage=HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_estado.Hierarchy_estado, fullName=dim_usage_estado.Hierarchy_estado, foreignKey=id_estado, source=dim_estado.Hierarchy_estado, level=null, name=dim_usage_estado
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: register HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_estado.Hierarchy_estado, fullName=dim_usage_estado.Hierarchy_estado, foreignKey=id_estado, source=dim_estado.Hierarchy_estado, level=null, name=dim_usage_estado
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_estado.Hierarchy_estado
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_estudiante.Hierarchy_estudiante, fullName=dim_usage_estudiante.Hierarchy_estudiante, foreignKey=id_estudi, source=dim_estudiante.Hierarchy_estudiante, level=null, name=dim_usage_estudiante, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube<init>: dimension=dim_usage_estudiante
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_estudiante.Hierarchy_estudiante, fullName=dim_usage_estudiante.Hierarchy_estudiante, foreignKey=id_estudi, source=dim_estudiante.Hierarchy_estudiante, level=null, name=dim_usage_estudiante, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: cube=cube_udenar, hierarchy=dim_usage_estudiante.Hierarchy_estudiante, usage=HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_estudiante.Hierarchy_estudiante, fullName=dim_usage_estudiante.Hierarchy_estudiante, foreignKey=id_estudi, source=dim_estudiante.Hierarchy_estudiante, level=null, name=dim_usage_estudiante
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: register HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_estudiante.Hierarchy_estudiante, fullName=dim_usage_estudiante.Hierarchy_estudiante, foreignKey=id_estudi, source=dim_estudiante.Hierarchy_estudiante, level=null, name=dim_usage_estudiante
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_estudiante.Hierarchy_estudiante
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_geografica.Hierarchy_geografica, fullName=dim_usage_geografia.Hierarchy_geografica, foreignKey=id_ciudad_procedencia, source=dim_geografica.Hierarchy_geografica, level=null, name=dim_usage_geografia, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube<init>: dimension=dim_usage_geografia
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_geografia.Hierarchy_geografica, fullName=dim_usage_geografia.Hierarchy_geografica, foreignKey=id_ciudad_procedencia, source=dim_geografica.Hierarchy_geografica, level=null, name=dim_usage_geografia, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: cube=cube_udenar, hierarchy=dim_usage_geografia.Hierarchy_geografica, usage=HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_geografia.Hierarchy_geografica, fullName=dim_usage_geografia.Hierarchy_geografica, foreignKey=id_ciudad_procedencia, source=dim_geografica.Hierarchy_geografica, level=null, name=dim_usage_geografia
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: register HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_geografia.Hierarchy_geografica, fullName=dim_usage_geografia.Hierarchy_geografica, foreignKey=id_ciudad_procedencia, source=dim_geografica.Hierarchy_geografica, level=null, name=dim_usage_geografia
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_geografia.Hierarchy_geografica
+2014-12-02 09:46:26,291 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_temporal.Hierarchy_temporal, fullName=dim_usage_temporal.Hierarchy_temporal, foreignKey=id_temporal, source=dim_temporal.Hierarchy_temporal, level=null, name=dim_usage_temporal, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,307 DEBUG [mondrian.rolap.RolapCube] RolapCube<init>: dimension=dim_usage_temporal
+2014-12-02 09:46:26,307 DEBUG [mondrian.rolap.HierarchyUsage] HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_temporal.Hierarchy_temporal, fullName=dim_usage_temporal.Hierarchy_temporal, foreignKey=id_temporal, source=dim_temporal.Hierarchy_temporal, level=null, name=dim_usage_temporal, cubeDim=mondrian.olap.MondrianDef$DimensionUsage
+2014-12-02 09:46:26,307 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: cube=cube_udenar, hierarchy=dim_usage_temporal.Hierarchy_temporal, usage=HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_temporal.Hierarchy_temporal, fullName=dim_usage_temporal.Hierarchy_temporal, foreignKey=id_temporal, source=dim_temporal.Hierarchy_temporal, level=null, name=dim_usage_temporal
+2014-12-02 09:46:26,307 DEBUG [mondrian.rolap.RolapCube] RolapCube.createUsage: register HierarchyUsage: kind=SHARED, hierarchyName=dim_usage_temporal.Hierarchy_temporal, fullName=dim_usage_temporal.Hierarchy_temporal, foreignKey=id_temporal, source=dim_temporal.Hierarchy_temporal, level=null, name=dim_usage_temporal
+2014-12-02 09:46:26,307 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_temporal.Hierarchy_temporal
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_academica]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_usage_academica]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_colegio]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_usage_colegio]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_estado]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_usage_estado]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_estudiante]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_usage_estudiante]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_geografica]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_usage_geografia]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_temporal]
+2014-12-02 09:46:26,353 DEBUG [mondrian.rolap.RolapSchema] Normal cardinality for [dim_usage_temporal]
+2014-12-02 09:46:26,416 DEBUG [mondrian.rolap.aggmatcher.ExplicitRules] 
+ExplicitRules.Group:
+  name=public.fac_cantidad
+  TableDefs: [
+  ]
+
+2014-12-02 09:46:26,416 DEBUG [mondrian.rolap.aggmatcher.AggTableManager] 
+RolapStar:
+  Table:
+    alias=fac_cantidad
+    relation=public.fac_cantidad
+    Columns:
+      measure_cantidad (13): sum("fac_cantidad"."count")
+      Fact Count (14): count(null)
+    Table:
+      alias=dim_academica
+      relation=public.dim_academica
+      Columns:
+        level_programa (0): "dim_academica"."nom_prog"
+        level_facultad (1): "dim_academica"."nom_fac"
+      Condition:
+        left="fac_cantidad"."id_programa"
+        right="dim_academica"."id_programa"
+    Table:
+      alias=dim_colegio
+      relation=public.dim_colegio
+      Columns:
+        level_colegio (2): "dim_colegio"."nom_colegio"
+        level_tipo_colegio (3): "dim_colegio"."nom_tipo"
+      Condition:
+        left="fac_cantidad"."id_colegio"
+        right="dim_colegio"."id_colegio"
+    Table:
+      alias=dim_estado
+      relation=public.dim_estado
+      Columns:
+        level_estado (4): "dim_estado"."descripcion"
+      Condition:
+        left="fac_cantidad"."id_estado"
+        right="dim_estado"."id_estado"
+    Table:
+      alias=dim_estudiante
+      relation=public.dim_estudiante
+      Columns:
+        level_genero (5): "dim_estudiante"."genero"
+        level_estado_civil (6): "dim_estudiante"."nombre_estado_civil"
+        level_ingreso (7): "dim_estudiante"."nombre_ingreso"
+      Condition:
+        left="fac_cantidad"."id_estudi"
+        right="dim_estudiante"."id_estudi"
+    Table:
+      alias=dim_geografica
+      relation=public.dim_geografica
+      Columns:
+        level_municipio (8): "dim_geografica"."nom_municipio"
+        level_departamento (9): "dim_geografica"."nom_departamento"
+        level_pais (10): "dim_geografica"."nom_pais"
+      Condition:
+        left="fac_cantidad"."id_ciudad_procedencia"
+        right="dim_geografica"."id_municipio"
+    Table:
+      alias=dim_temporal
+      relation=public.dim_temporal
+      Columns:
+        level_year (11): "dim_temporal"."year"
+        level_semester_per (12): "dim_temporal"."semester_str"
+      Condition:
+        left="fac_cantidad"."id_temporal"
+        right="dim_temporal"."id_temporal"
+
+
+2014-12-02 09:46:26,416 DEBUG [mondrian.rolap.RolapSchemaPool] create: mondrian.rolap.RolapSchema@918a10b8
+2014-12-02 09:46:26,416 DEBUG [mondrian.rolap.RolapSchemaPool] put: schema=mondrian.rolap.RolapSchema@918a10b8, key=<e1f9e4227d237314c1cd63758d74a67a, fd94854a0b2a445097a0912efdb534fb>, checksum=null, map-size=1, md5-map-size=0
+2014-12-02 09:46:26,416 DEBUG [mondrian.server.MondrianServerImpl] removeStatement , id=1, statements=1, connections=1
+2014-12-02 09:46:26,416 DEBUG [mondrian.server.monitor] StatementInfo{statementId=0, executeStartCount=0, executeEndCount=0, phaseCount=0, cellCacheRequestCount=0, cellCacheHitCount=0, cellCacheMissCount=0, cellCachePendingCount=0, sqlStatementStartCount=0, sqlStatementExecuteCount=0, sqlStatementEndCount=0, sqlStatementRowFetchCount=0, sqlStatementExecuteNanos=0, cellRequestCount=0}
+2014-12-02 09:46:26,416 DEBUG [mondrian.server.monitor] StatementEndEvent(0)
+2014-12-02 09:46:26,416 DEBUG [mondrian.server.MondrianServerImpl] addConnection , id=1, statements=0, connections=1
+2014-12-02 09:46:26,416 DEBUG [mondrian.server.monitor] ConnectionStartEvent(0)
+2014-12-02 09:46:26,463 DEBUG [mondrian.server.MondrianServerImpl] addStatement , id=1, statements=0, connections=1
+2014-12-02 09:46:26,463 DEBUG [mondrian.server.monitor] StatementStartEvent(2)
+2014-12-02 09:46:26,478 DEBUG [mondrian.rolap.RolapConnection] 
+SELECT {[Measures].[measure_cantidad]} ON COLUMNS,NON EMPTY {CrossJoin({[dim_usage_estudiante].[level_estado_civil].[SOLTERO]},{[dim_usage_colegio].[level_colegio].Members})} ON ROWS FROM [cube_udenar]
+2014-12-02 09:46:26,650 DEBUG [mondrian.olap.Util] Util.lookupCompound: parent.name=cube_udenar, category=unknown, names=[Measures].[measure_cantidad]
+2014-12-02 09:46:26,650 DEBUG [mondrian.rolap.RolapCube] RolapCube.lookupChild: name=cube_udenar, childname=[Measures] returning elementname=Measures
+2014-12-02 09:46:26,650 DEBUG [mondrian.rolap.RolapHierarchy] HierarchyBase.lookupChild: name=Measures, childname=[measure_cantidad] returning elementname=measure_cantidad
+2014-12-02 09:46:26,650 DEBUG [mondrian.olap.Util] Util.lookupCompound: found child.name=measure_cantidad, child.class=mondrian.rolap.RolapBaseCubeMeasure
+2014-12-02 09:46:26,650 DEBUG [mondrian.olap.Util] Util.lookupCompound: parent.name=cube_udenar, category=unknown, names=[dim_usage_estudiante].[level_estado_civil].[SOLTERO]
+2014-12-02 09:46:26,666 DEBUG [mondrian.rolap.RolapCube] RolapCube.lookupChild: name=cube_udenar, childname=[dim_usage_estudiante], status=hierUsage == null returning elementname=dim_usage_estudiante
+2014-12-02 09:46:26,666 DEBUG [mondrian.rolap.RolapHierarchy] HierarchyBase.lookupChild: name=dim_usage_estudiante.Hierarchy_estudiante, childname=[level_estado_civil] returning elementname=level_estado_civil
+2014-12-02 09:46:26,682 DEBUG [mondrian.sql] 0: SqlTupleReader.readTuples [[dim_estudiante.Hierarchy_estudiante].[level_estado_civil]]: executing sql [select "dim_estudiante"."genero" as "c0", "dim_estudiante"."nombre_estado_civil" as "c1" from "public"."dim_estudiante" as "dim_estudiante" group by "dim_estudiante"."genero", "dim_estudiante"."nombre_estado_civil" order by "dim_estudiante"."genero" ASC NULLS LAST, "dim_estudiante"."nombre_estado_civil" ASC NULLS LAST]
+2014-12-02 09:46:26,682 DEBUG [mondrian.server.monitor] ExecutionStartEvent(7)
+2014-12-02 09:46:26,682 DEBUG [mondrian.server.monitor] SqlStatementStartEvent(0)
+2014-12-02 09:46:26,728 DEBUG [mondrian.server.monitor] SqlStatementExecuteEvent(0)
+2014-12-02 09:46:26,728 DEBUG [mondrian.spi.impl.JdbcDialectImpl] JdbcDialectImpl.getType Dialect- POSTGRESQL, Column-c0 is of internal type OBJECT. JDBC type was 12.  Column precision=2147483647.  Column scale=0
+2014-12-02 09:46:26,728 DEBUG [mondrian.spi.impl.JdbcDialectImpl] JdbcDialectImpl.getType Dialect- POSTGRESQL, Column-c1 is of internal type OBJECT. JDBC type was 12.  Column precision=20.  Column scale=0
+2014-12-02 09:46:26,728 DEBUG [mondrian.sql] 0: , exec 46 ms
+2014-12-02 09:46:26,728 DEBUG [mondrian.rolap.RolapUtil] SqlTupleReader.readTuples [[dim_estudiante.Hierarchy_estudiante].[level_estado_civil]]: executing sql [select "dim_estudiante"."genero" as "c0", "dim_estudiante"."nombre_estado_civil" as "c1" from "public"."dim_estudiante" as "dim_estudiante" group by "dim_estudiante"."genero", "dim_estudiante"."nombre_estado_civil" order by "dim_estudiante"."genero" ASC NULLS LAST, "dim_estudiante"."nombre_estado_civil" ASC NULLS LAST], exec 46 ms
+2014-12-02 09:46:26,744 DEBUG [mondrian.sql] 0: , exec+fetch 62 ms, 17 rows
+2014-12-02 09:46:26,744 DEBUG [mondrian.rolap.RolapUtil] SqlTupleReader.readTuples [[dim_estudiante.Hierarchy_estudiante].[level_estado_civil]]: done executing sql [select "dim_estudiante"."genero" as "c0", "dim_estudiante"."nombre_estado_civil" as "c1" from "public"."dim_estudiante" as "dim_estudiante" group by "dim_estudiante"."genero", "dim_estudiante"."nombre_estado_civil" order by "dim_estudiante"."genero" ASC NULLS LAST, "dim_estudiante"."nombre_estado_civil" ASC NULLS LAST], exec+fetch 62 ms, 17 rows, ex=1, close=1, open=[]
+2014-12-02 09:46:26,744 DEBUG [mondrian.server.monitor] SqlStatementEndEvent(0)
+2014-12-02 09:46:26,744 DEBUG [mondrian.olap.Util] Util.lookupCompound: found child.name=SOLTERO, child.class=mondrian.rolap.RolapCubeMember
+2014-12-02 09:46:26,744 DEBUG [mondrian.olap.Util] Util.lookupCompound: parent.name=cube_udenar, category=unknown, names=[dim_usage_colegio].[level_colegio]
+2014-12-02 09:46:26,744 DEBUG [mondrian.rolap.RolapCube] RolapCube.lookupChild: name=cube_udenar, childname=[dim_usage_colegio], status=hierUsage == null returning elementname=dim_usage_colegio
+2014-12-02 09:46:26,744 DEBUG [mondrian.rolap.RolapHierarchy] HierarchyBase.lookupChild: name=dim_usage_colegio.Hierarchy_colegio, childname=[level_colegio] returning elementname=level_colegio
+2014-12-02 09:46:26,744 DEBUG [mondrian.olap.Util] Util.lookupCompound: found child.name=level_colegio, child.class=mondrian.rolap.RolapCubeLevel
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=Measures
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_academica.Hierarchy_academica 
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_academica].[#null]
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_colegio.Hierarchy_colegio
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_colegio].[#null]
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_estado.Hierarchy_estado
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_estado].[#null]
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_estudiante.Hierarchy_estudiante
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_estudiante].[#null]
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_geografia.Hierarchy_geografica
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_geografia].[#null]
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=dim_usage_temporal.Hierarchy_temporal
+2014-12-02 09:46:26,775 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_temporal].[#null]
+2014-12-02 09:46:26,900 DEBUG [mondrian.rolap.RolapConnection] select {[Measures].[measure_cantidad]} ON COLUMNS,
+  NON EMPTY {Crossjoin({[dim_usage_estudiante.Hierarchy_estudiante].[F].[SOLTERO]}, {[dim_usage_colegio.Hierarchy_colegio].[level_colegio].Members})} ON ROWS
+from [cube_udenar]
+
+2014-12-02 09:46:26,900 DEBUG [mondrian.mdx] 18: select {[Measures].[measure_cantidad]} ON COLUMNS,
+  NON EMPTY {Crossjoin({[dim_usage_estudiante.Hierarchy_estudiante].[F].[SOLTERO]}, {[dim_usage_colegio.Hierarchy_colegio].[level_colegio].Members})} ON ROWS
+from [cube_udenar]
+
+2014-12-02 09:46:26,900 DEBUG [mondrian.rolap.RolapStar] RolapStar.clearCachedAggregations: schema=schema_udenar_cantidad, star=fac_cantidad
+2014-12-02 09:46:26,900 DEBUG [mondrian.server.monitor] ExecutionStartEvent(18)
+2014-12-02 09:46:26,900 DEBUG [mondrian.rolap.RolapCube] RolapCube.getUsages: name=Measures
+2014-12-02 09:46:26,900 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_academica].[#null]
+2014-12-02 09:46:26,916 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_colegio].[#null]
+2014-12-02 09:46:26,916 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_estado].[#null]
+2014-12-02 09:46:26,916 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_estudiante].[#null]
+2014-12-02 09:46:26,916 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_geografia].[#null]
+2014-12-02 09:46:26,916 DEBUG [mondrian.rolap.RolapMember] RolapMember.makeUniqueName: uniqueName=[dim_usage_temporal].[#null]
+2014-12-02 09:46:26,916 DEBUG [mondrian.rolap.RolapNativeSet] using native crossjoin
+2014-12-02 09:46:26,932 DEBUG [mondrian.sql] 1: SqlTupleReader.readTuples [[dim_usage_estudiante.Hierarchy_estudiante].[level_estado_civil], [dim_usage_colegio.Hierarchy_colegio].[level_colegio]]: executing sql [select "dim_estudiante"."genero" as "c0", "dim_estudiante"."nombre_estado_civil" as "c1", "dim_colegio"."nom_colegio" as "c2" from "public"."dim_estudiante" as "dim_estudiante", "public"."fac_cantidad" as "fac_cantidad", "public"."dim_colegio" as "dim_colegio" where "fac_cantidad"."id_estudi" = "dim_estudiante"."id_estudi" and "fac_cantidad"."id_colegio" = "dim_colegio"."id_colegio" and ("dim_estudiante"."nombre_estado_civil" = 'SOLTERO' and "dim_estudiante"."genero" = 'F') group by "dim_estudiante"."genero", "dim_estudiante"."nombre_estado_civil", "dim_colegio"."nom_colegio" order by "dim_estudiante"."genero" ASC NULLS LAST, "dim_estudiante"."nombre_estado_civil" ASC NULLS LAST, "dim_colegio"."nom_colegio" ASC NULLS LAST]
+2014-12-02 09:46:26,932 DEBUG [mondrian.server.monitor] SqlStatementStartEvent(1)
+2014-12-02 09:46:27,088 DEBUG [mondrian.spi.impl.JdbcDialectImpl] JdbcDialectImpl.getType Dialect- POSTGRESQL, Column-c0 is of internal type OBJECT. JDBC type was 12.  Column precision=2147483647.  Column scale=0
+2014-12-02 09:46:27,088 DEBUG [mondrian.server.monitor] SqlStatementExecuteEvent(1)
+2014-12-02 09:46:27,088 DEBUG [mondrian.spi.impl.JdbcDialectImpl] JdbcDialectImpl.getType Dialect- POSTGRESQL, Column-c1 is of internal type OBJECT. JDBC type was 12.  Column precision=20.  Column scale=0
+2014-12-02 09:46:27,088 DEBUG [mondrian.spi.impl.JdbcDialectImpl] JdbcDialectImpl.getType Dialect- POSTGRESQL, Column-c2 is of internal type OBJECT. JDBC type was 12.  Column precision=100.  Column scale=0
+2014-12-02 09:46:27,088 DEBUG [mondrian.sql] 1: , exec 160 ms
+2014-12-02 09:46:27,088 DEBUG [mondrian.rolap.RolapUtil] SqlTupleReader.readTuples [[dim_usage_estudiante.Hierarchy_estudiante].[level_estado_civil], [dim_usage_colegio.Hierarchy_colegio].[level_colegio]]: executing sql [select "dim_estudiante"."genero" as "c0", "dim_estudiante"."nombre_estado_civil" as "c1", "dim_colegio"."nom_colegio" as "c2" from "public"."dim_estudiante" as "dim_estudiante", "public"."fac_cantidad" as "fac_cantidad", "public"."dim_colegio" as "dim_colegio" where "fac_cantidad"."id_estudi" = "dim_estudiante"."id_estudi" and "fac_cantidad"."id_colegio" = "dim_colegio"."id_colegio" and ("dim_estudiante"."nombre_estado_civil" = 'SOLTERO' and "dim_estudiante"."genero" = 'F') group by "dim_estudiante"."genero", "dim_estudiante"."nombre_estado_civil", "dim_colegio"."nom_colegio" order by "dim_estudiante"."genero" ASC NULLS LAST, "dim_estudiante"."nombre_estado_civil" ASC NULLS LAST, "dim_colegio"."nom_colegio" ASC NULLS LAST], exec 160 ms
+2014-12-02 09:46:27,088 DEBUG [mondrian.sql] 1: , exec+fetch 156 ms, 0 rows
+2014-12-02 09:46:27,088 DEBUG [mondrian.rolap.RolapUtil] SqlTupleReader.readTuples [[dim_usage_estudiante.Hierarchy_estudiante].[level_estado_civil], [dim_usage_colegio.Hierarchy_colegio].[level_colegio]]: done executing sql [select "dim_estudiante"."genero" as "c0", "dim_estudiante"."nombre_estado_civil" as "c1", "dim_colegio"."nom_colegio" as "c2" from "public"."dim_estudiante" as "dim_estudiante", "public"."fac_cantidad" as "fac_cantidad", "public"."dim_colegio" as "dim_colegio" where "fac_cantidad"."id_estudi" = "dim_estudiante"."id_estudi" and "fac_cantidad"."id_colegio" = "dim_colegio"."id_colegio" and ("dim_estudiante"."nombre_estado_civil" = 'SOLTERO' and "dim_estudiante"."genero" = 'F') group by "dim_estudiante"."genero", "dim_estudiante"."nombre_estado_civil", "dim_colegio"."nom_colegio" order by "dim_estudiante"."genero" ASC NULLS LAST, "dim_estudiante"."nombre_estado_civil" ASC NULLS LAST, "dim_colegio"."nom_colegio" ASC NULLS LAST], exec+fetch 156 ms, 0 rows, ex=2, close=2, open=[]
+2014-12-02 09:46:27,088 DEBUG [mondrian.server.monitor] SqlStatementInfo{sqlStatementId=1, sql=select "dim_estudiante"."genero" as "c0", "dim_estudiante"."nombre_estado_civil" as "c1", "dim_colegio"."nom_colegio" as "c2" from "public"."dim_estudiante" as "dim_estudiante", "public"."fac_cantidad" as "fac_cantidad", "public"."dim_colegio" as "dim_colegio" where "fac_cantidad"."id_estudi" = "dim_estudiante"."id_estudi" and "fac_cantidad"."id_colegio" = "dim_colegio"."id_colegio" and ("dim_estudiante"."nombre_estado_civil" = 'SOLTERO' and "dim_estudiante"."genero" = 'F') group by "dim_estudiante"."genero", "dim_estudiante"."nombre_estado_civil", "dim_colegio"."nom_colegio" order by "dim_estudiante"."genero" ASC NULLS LAST, "dim_estudiante"."nombre_estado_civil" ASC NULLS LAST, "dim_colegio"."nom_colegio" ASC NULLS LAST}
+2014-12-02 09:46:27,088 DEBUG [mondrian.server.monitor] SqlStatementEndEvent(1)
+2014-12-02 09:46:27,103 DEBUG [mondrian.rolap.RolapNativeSet] using native crossjoin
+2014-12-02 09:46:27,103 DEBUG [mondrian.olap.ResultBase] RolapResult<init>: FREE_MEMORY: 26896kb 59.10%
+2014-12-02 09:46:27,103 DEBUG [mondrian.rolap.RolapStar] RolapStar.clearCachedAggregations: schema=schema_udenar_cantidad, star=fac_cantidad
+2014-12-02 09:46:27,103 DEBUG [mondrian.mdx] 18: exec: 203 ms
+2014-12-02 09:46:27,103 DEBUG [mondrian.server.monitor] ExecutionInfo{executionId=18, phaseCount=1, cellCacheRequestCount=0, cellCacheHitCount=0, cellCacheMissCount=0, cellCachePendingCount=0, sqlStatementStartCount=0, sqlStatementExecuteCount=0, sqlStatementEndCount=0, sqlStatementRowFetchCount=0, sqlStatementExecuteNanos=0, cellRequestCount=0}
+2014-12-02 09:46:27,103 DEBUG [mondrian.server.monitor] ExecutionEndEvent(18)

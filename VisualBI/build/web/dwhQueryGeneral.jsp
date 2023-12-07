@@ -1,0 +1,84 @@
+<%-- 
+    Document   : dwhQueryGeneral
+    Created on : 13/11/2014, 11:31:57 AM
+    Author     : Carlitos
+--%>
+
+<%@page import="Dwh.Connection.ClassConnection"%>
+<%@page import="Dwh.Table.QueryTable"%>
+<%@page import="Dwh.Cube.GeneralQuery"%>
+<%@page import="Dwh.Cube.StructureCube"%>
+<%@page import="Dwh.Table.QueryTable"%>
+<%@page import="org.olap4j.OlapConnection"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>VisualBiTool(General SQL)</title>
+        <script>
+         function funDwhViewQuery()
+            {
+                var sql = document.getElementById("idSql").value;
+                $( "#dialog-sql").html(sql);
+                $( "#dialog-sql").dialog( "open" ); 
+            }
+         function funDwhDownload()
+            {
+               location.href='dwhDownloadReportQuery.jsp';
+            }
+        </script>
+        <title>VisualBITools</title>
+    </head>
+    <body>
+        <%
+            HttpSession sesion=request.getSession();
+            sesion.removeAttribute("report");
+            //out.println("dwhQueryGeneral.jsp");
+            String sql = "",cadLevels="";
+            String[] vecLevels = null,vecMeasures = null;
+            String dim1 = (String)request.getParameter("level1");
+            String dim2 = (String)request.getParameter("level2");
+            String dim3 = (String)request.getParameter("level3");
+            String measures = (String)request.getParameter("measures");
+            String[] d1 = dim1.split("=>");
+            String[] d2 = dim2.split("=>");
+            String[] d3 = dim3.split("=>");
+            String cadCon = (String)request.getParameter("cadCon");
+            String[] vecCon = cadCon.split("=>");
+            ClassConnection cc = new ClassConnection(vecCon[0].trim(), vecCon[1].trim(),vecCon[2].trim() , vecCon[3].trim(), vecCon[4].trim(), vecCon[5].trim());
+                if(cc.processConnection() == true)
+                {
+                  StructureCube sc = new StructureCube(cc.getOlapConnection());
+                  if(sc.processCube() == true)
+                  {
+                      GeneralQuery gq = new GeneralQuery(d1[0], d2[0], d3[0], d1[1], d2[1], d3[1], sc.getNameCube(), measures);
+                      sql= gq.getSql();
+                      out.println("<textarea id='idSql' style='display:none;text-color:blue'>"+sql+"</textarea>");
+                      QueryTable qt = new QueryTable(cc.getOlapConnection(),sql,measures);
+                      if(qt.processQuery() == true)
+                        {
+                            out.println(qt.getTable());
+                            sesion.setAttribute("report",qt.getTable());
+                            //out.println("<a href='dwhDownloadReports.jsp'>Descargar Reporte</a><textarea id='idResult'>"+qt.getTable()+"</textarea>");
+                            
+                        }
+                        else
+                        {
+                            out.println(qt.getExceptions());
+                        }
+                  }
+                  else
+                  {
+                      out.println(sc.getExceptions());
+                  }                  
+              }
+             else
+              {
+                out.println(cc.getExceptions());
+              }
+        %>
+
+        </table>
+    </body>
+</html>

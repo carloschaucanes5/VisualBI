@@ -1,0 +1,55 @@
+/* 
+    Document   : removeAttribute
+    Created on : 18/12/2014, 11:13:37 PM
+    Author     : Carlitos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#divRemove{
+     position:absolute;
+     top:110px;
+     left: 60px;
+     width: 250px;
+     height: 230px;
+     overflow: scroll;
+     }
+
+     #divParameters{
+         position:absolute;
+         left: 420px;
+         top:55px;
+         width: 270px;
+         height: 375px;
+         overflow: scroll;
+     }
+     
+     #imageArrow1{
+         position: absolute;
+         left: 280px;
+         top:100px;
+     }
+     
+     #imageArrow2{
+         position: absolute;
+         left: 675px;
+         top:100px;
+     }
+     
+     #imageArrow3{
+         position: absolute;
+         left: 790px;
+         top:55px;
+         width: 270px;
+         height: 300px;
+     }
+     
+     #titleRemove
+     {
+         color:red;
+     }

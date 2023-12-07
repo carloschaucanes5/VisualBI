@@ -1,0 +1,20 @@
+/* 
+    Document   : tree
+    Created on : Oct 13, 2014, 7:38:14 PM
+    Author     : Carlitos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.divTree{
+    position: absolute;
+    left: 200px;
+    top:235px;
+}
+
+
